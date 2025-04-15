@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Mapa Mental - Programação Web</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🧠 Mapa Mental de Programação Web</h1>
+
+  <div class="secao">
+    <h2>🌐 HTML (Estrutura)</h2>
+    <ul>
+      <li><code>&lt;!DOCTYPE html&gt;</code> - Tipo do documento</li>
+      <li><code>&lt;html&gt;, &lt;head&gt;, &lt;body&gt;</code> - Estrutura básica</li>
+      <li><code>&lt;h1&gt; até &lt;h6&gt;</code> - Títulos</li>
+      <li><code>&lt;p&gt;, &lt;a&gt;, &lt;img&gt;</code> - Texto, links, imagens</li>
+      <li><code>&lt;ul&gt;, &lt;ol&gt;, &lt;li&gt;</code> - Listas</li>
+      <li><code>&lt;div&gt;, &lt;span&gt;</code> - Containers genéricos</li>
+    </ul>
+  </div>
+
+  <div class="secao">
+    <h2>🎨 CSS (Estilo)</h2>
+    <pre><code>body {
+  background-color: #f0f0f0;
+  font-family: Arial;
+}
+
+.titulo {
+  color: blue;
+  font-size: 24px;
+}</code></pre>
+    <ul>
+      <li>Seletores: <code>*, .classe, #id</code></li>
+      <li>Propriedades: <code>color, background, padding, margin</code></li>
+      <li>Layout: <code>flex, grid, position</code></li>
+      <li>Animações: <code>transition, animation</code></li>
+    </ul>
+  </div>
+
+  <div class="secao">
+    <h2>🧠 JavaScript (Lógica)</h2>
+    <pre><code>// Variáveis
+let nome = "Ana";
+const idade = 25;
+
+// Função
+function saudacao() {
+  alert("Olá!");
+}
+
+// Evento
+document.querySelector("button").addEventListener("click", saudacao);</code></pre>
+    <ul>
+      <li>Condicionais: <code>if, else</code></li>
+      <li>Loops: <code>for, while</code></li>
+      <li>DOM: <code>document.querySelector()</code>, <code>getElementById()</code></li>
+    </ul>
+  </div>
+
+  <div class="secao">
+    <h2>💻 Git & GitHub</h2>
+    <pre><code>// Configuração inicial
+git config --global user.name "Seu Nome"
+git config --global user.email "seu@email.com"
+
+// Comandos principais
+git init
+git add .
+git commit -m "Primeiro commit"
+git push
+git pull
+
+// Conectar ao GitHub
+git remote add origin https://github.com/usuario/repositorio.git
+git branch -M main
+git push -u origin main</code></pre>
+  </div>
+
+</body>
+</html>

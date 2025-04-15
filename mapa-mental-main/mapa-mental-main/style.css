@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fdfdfd;
+  margin: 20px;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  color: #007acc;
+}
+
+.secao {
+  margin: 30px 0;
+}
+
+.secao h2 {
+  color: #444;
+  border-left: 6px solid #007acc;
+  padding-left: 10px;
+}
+
+pre {
+  background: #f4f4f4;
+  padding: 10px;
+  border-left: 4px solid #ccc;
+  overflow-x: auto;
+}
+
+ul {
+  list-style-type: "👉 ";
+  padding-left: 20px;
+}
+
+code {
+  background-color: #eaeaea;
+  padding: 2px 4px;
+  border-radius: 4px;
+}
